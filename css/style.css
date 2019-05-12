@@ -39,7 +39,14 @@ h3{
   font-family: 'Sofia', cursive;
   font-size: 25px;
 }
-
+.brand-logo{
+  margin-left: 40px;
+}
+.brand-logo:hover{
+  left:100px;
+  transition: all ease .3s;
+  transform: scale(1.1);
+}
 .parallax1 { 
   /* The image used */
   background-image: url("assets/img/capa.png");
@@ -182,20 +189,22 @@ h3{
   font-size: 20px;
 }
 #dropdown1 a:hover{
-  box-shadow: box-shadow: 0px 8px 16px 0px #8e24aa;
+  box-shadow: none;
 }
 .dropdown {
   position: relative;
   display: inline-block;
 }
+.dropdown-trigger:hover{
+  background-color: none;
+  transition: all ease .3s;
+  transform: scale(1.2);
+}
 .dropdown-content {
   display: none;
   position: absolute;
-  color: #ffffff;
   margin-top: 100px;
-  background-color: #8e24aa;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px #8e24aa;
   padding: 0px 0px;
   z-index: 1;
 }
@@ -204,11 +213,7 @@ h3{
   font-size: 16px;
 }
 
-.dropdown:hover .dropdown-content {
-  margin-top: 20px;
-  display: block;
-  box-shadow: 0px 8px 16px 0px #8e24aa;
-}
+
 
 #nav-wrapper :hover {
   color: #98FB98;
@@ -337,9 +342,6 @@ h3{
   padding: 0 10px;
 }
 
-.row{
-  margin-left: 20%;
-}
 .row:after{
   content:"";
   display: table;
@@ -376,6 +378,19 @@ h3{
   float:right;
   margin-top: 0.1%;
 }
+#aicon_1:hover{
+  transition: all ease .3s;
+  transform: scale(1.2);
+}
+#aicon_2:hover{
+  transition: all ease .3s;
+  transform: scale(1.2);
+}
+#aicon_3:hover{
+  transition: all ease .3s;
+  transform: scale(1.2);
+}
+
 
 footer{
   background-color: #8e24aa;
