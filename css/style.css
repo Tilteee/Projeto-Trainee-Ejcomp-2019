@@ -353,6 +353,9 @@ h3{
   justify-content: center;
 }
 @media screen and (max-width: 600px) {
+  p{
+    font-size:10;
+  }
   h1{
     font-size:10px;
   }
@@ -449,6 +452,9 @@ footer{
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+  p{
+    font-size:10;
+  }
    h1{
     font-size:10px;
   }
@@ -487,6 +493,9 @@ footer{
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  p{
+    font-size:10;
+  }
    h1{
     font-size:10px;
   }
