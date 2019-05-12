@@ -43,7 +43,7 @@ h3{
   margin-left: 40px;
 }
 .brand-logo:hover{
-  left:100px;
+  left:20px;
   transition: all ease .3s;
   transform: scale(1.1);
 }
