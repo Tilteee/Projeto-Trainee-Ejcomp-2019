@@ -39,9 +39,6 @@ h3{
   font-family: 'Sofia', cursive;
   font-size: 25px;
 }
-.brand-logo{
-  margin-left: 40px;
-}
 .brand-logo:hover{
   left:20px;
   transition: all ease .3s;
