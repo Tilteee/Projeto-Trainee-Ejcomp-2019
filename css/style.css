@@ -353,10 +353,11 @@ h3{
   justify-content: center;
 }
 @media screen and (max-width: 600px) {
-  .brand-logo{
-    left:5%;
-    font-size: 10px;
-  }
+  .nav-wrapper b{
+  position: relative;
+  display: flex;
+  font-size: 10px;
+}
   .sidenav {padding-top: 15px; color: #ffffff;}
   .sidenav a {font-size: 18px;}
   html,body
@@ -481,10 +482,11 @@ footer{
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  .brand-logo{
-    left:5%;
-    font-size: 10px;
-  }
+  .nav-wrapper b{
+  position: relative;
+  display: flex;
+  font-size: 20px;
+}
   .sidenav {padding-top: 15px; color: #ffffff;}
   .sidenav a {font-size: 18px;}
   html,body
@@ -551,10 +553,11 @@ footer{
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .brand-logo{
-    left:5%;
-    font-size: 10px;
-  }
+  .nav-wrapper b{
+  position: relative;
+  display: flex;
+  font-size: 20px;
+}
   .sidenav {padding-top: 15px; color: #ffffff;}
   .sidenav a {font-size: 18px;}
   html,body
