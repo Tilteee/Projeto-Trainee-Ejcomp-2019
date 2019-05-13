@@ -186,7 +186,6 @@ h3{
 .nav-wrapper b{
   position: relative;
   display: flex;
-  font-size: 20px;
 }
 #dropdown1 a:hover{
   box-shadow: none;
